@@ -10,4 +10,6 @@ purchase_3 = pd.Series({'Name': 'Vinod',
                         'Item Purchased': 'Bird Seed',
                         'Cost': 5.00})
 df = pd.DataFrame([purchase_1, purchase_2, purchase_3], index=['Store 1', 'Store 1', 'Store 2'])
-df.head()
+print (df.head())
+
+print(df.loc['Store 2'])
